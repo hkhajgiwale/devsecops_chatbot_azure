@@ -1,0 +1,8 @@
+Analyze the NSG flow logs and highlight any suspicious traffic, port scans, brute force attempts, or misconfigurations.
+Create a markdown table summarizing the recent Azure NSG flow logs. Include source/destination IPs, ports, protocol, direction, and flow state.
+Check for anomalies in the NSG flow logs such as high denied traffic, repeated access to sensitive ports (like 22, 3389), or unexpected public IPs.
+Suggest improvements or cleanup for NSG rules based on these flow logs. Highlight any redundant or shadowed rules.
+Group the flow logs by most active source IPs and destination ports. Show which IPs are generating the most traffic.
+Extract and summarize only the denied flows from these logs. Indicate potential reasons or patterns.
+List any IP addresses or flows that might be scanning, probing, or trying to access blocked services.
+Give a high-level executive summary of these NSG logs in bullet points for reporting. Include any threats, trends, or suggestions.
