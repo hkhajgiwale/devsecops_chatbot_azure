@@ -1,0 +1,15 @@
+# Environment and virtualenv
+.env
+.venv/
+venv/
+__pycache__/
+
+# FAISS index
+.nsg_faiss_index
+
+# OS / IDE files
+.DS_Store
+*.swp
+*.swo
+.idea/
+.vscode/
